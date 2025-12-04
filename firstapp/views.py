@@ -3,3 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 def hello(request):
     return HttpResponse("<h1>hello world</h1>")
+def swap(request):
+    return HttpResponse("<h1> new page </h1>")
